@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Curriculum Vitae (CV) Profesional Rafli Abdul Bay Haqqy - System Engineer, Platform Engineer & DevOps Engineer.">
+    <title>Curriculum Vitae | Rafli Abdul Bay Haqqy</title>
+    
+    <!-- Google Fonts: Space Grotesk (Headings), Inter (Body) & JetBrains Mono (Labels/Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-clean py-3">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-custom" href="#home">
+                RAFLI<span>.DEV</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link nav-link-custom active" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#skills">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#portfolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#certs">Sertifikasi</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#training">Training</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Beranda -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+                    <span class="hero-badge">Welcome to my professional space</span>
+                    <h1 class="hero-title">
+                        Halo, Saya <br><span class="gradient-text">Rafli Abdul Bay Haqqy</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        Spesialisasi di bidang <span class="typing-text"></span>
+                    </div>
+                    <p class="lead text-muted mb-5" style="max-width: 600px;">
+                        Berfokus pada penyediaan sistem dengan ketersediaan tinggi (high-availability), orkestrasi kontainer, serta otomatisasi infrastruktur cloud-native yang aman dan efisien.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                        <a href="#contact" class="btn btn-primary-custom"><i class="bi bi-envelope-fill me-2"></i>Hubungi Saya</a>
+                        <a href="#portfolio" class="btn btn-secondary-custom"><i class="bi bi-briefcase-fill me-2"></i>Lihat Karya</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 text-center mb-5 mb-lg-0">
+                    <div class="hero-img-container">
+                        <img src="assets/images/my-avatar.jpg" alt="Foto Profil Rafli Abdul Bay Haqqy" class="hero-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Tentang Saya -->
+    <section id="about" class="bg-alt">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 reveal">
+                    <span class="section-subtitle">Ringkasan Diri</span>
+                    <h2 class="section-title text-dark d-block">Tentang Saya</h2>
+                    
+                    <p class="mb-4 text-muted">
+                        Saya adalah seorang <strong class="text-dark">Software and Infrastructure Engineer</strong> yang berdomisili di Jakarta, Indonesia. Fokus keahlian saya terletak pada arsitektur sistem, kontainerisasi, dan otomatisasi deployment infrastruktur. Saya sangat antusias mengubah arsitektur warisan (legacy) menjadi sistem berbasis <em class="text-dark">cloud-native</em> yang terstandarisasi, aman, serta memiliki performa tinggi.
+                    </p>
+                    
+                    <p class="mb-4 text-muted">
+                        Melalui peran saya di industri, saya terbiasa menangani instalasi, konfigurasi, dan pemeliharaan cluster skala enterprise. Saya selalu percaya bahwa pendekatan berbasis <abbr title="Infrastructure as Code">IaC</abbr> dan implementasi <abbr title="Continuous Integration / Continuous Deployment">CI/CD</abbr> yang tepat dapat mempercepat siklus rilis sistem dan meminimalkan kesalahan operasional.
+                    </p>
+
+                    <blockquote class="blockquote">
+                        "Otomatisasi bukan sekadar menulis script, melainkan membangun keandalan sistem agar bisnis dapat berjalan tanpa gangguan operasional."
+                    </blockquote>
+                    
+                    <p class="text-muted small">
+                        Saat ini saya aktif mendalami ekosistem enterprise <mark>OpenShift</mark> dari Red Hat, otomatisasi menggunakan <mark>Ansible</mark>, serta penerapan sistem GitOps yang tangguh menggunakan berbagai tools pendukung.
+                    </p>
+                </div>
+                <div class="col-lg-6 reveal">
+                    <div class="row g-4 mb-4">
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number">2+</div>
+                                <div class="stat-label">Tahun Exp</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number">6+</div>
+                                <div class="stat-label">Sertifikat</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Training</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terminal-warm">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                            </div>
+                            <span class="terminal-filename">learning_progress.yaml</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div><span class="yaml-key">status:</span> <span class="yaml-string">"active_learning"</span></div>
+                            <div class="mt-2"><span class="yaml-key">focus_areas:</span></div>
+                            <div class="ps-3 mt-1">- <span class="yaml-value">OpenShift Advanced Administration</span></div>
+                            <div class="ps-3 text-muted">  progress: [████████░░] 80%</div>
+                            <div class="ps-3 mt-1">- <span class="yaml-value">Ansible Automation Platform</span></div>
+                            <div class="ps-3 text-muted">  progress: [██████░░░░] 65%</div>
+                            <div class="ps-3 mt-1">- <span class="yaml-value">GitOps with ArgoCD</span></div>
+                            <div class="ps-3 text-muted">  progress: [███████░░░] 70%</div>
+                            <div class="mt-3"><span class="yaml-comment"># update_time: 2026-06-04</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Riwayat Pendidikan -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Studi Akademis</span>
+                <h2 class="section-title">Riwayat Pendidikan</h2>
+            </div>
+
+            <div class="row justify-content-center reveal">
+                <div class="col-lg-10">
+                    <div class="table-responsive-custom">
+                        <table class="table editorial-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Jenjang Pendidikan</th>
+                                    <th scope="col">Nama Institusi</th>
+                                    <th scope="col">Jurusan / Program Studi</th>
+                                    <th scope="col">Periode Tahun</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><strong>Universitas / S1</strong></td>
+                                    <td>Universitas Teknologi Nasional</td>
+                                    <td>Teknologi Informasi</td>
+                                    <td>2023 - Sekarang</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><strong>SMA / Sederajat</strong></td>
+                                    <td>SMA Negeri 1 Kota Pilihan</td>
+                                    <td>MIPA (Matematika dan Ilmu Pengetahuan Alam)</td>
+                                    <td>2020 - 2023</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><strong>SMP / Sederajat</strong></td>
+                                    <td>SMP Negeri 2 Kota Pilihan</td>
+                                    <td>-</td>
+                                    <td>2017 - 2020</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Pengalaman Kerja -->
+    <section id="experience" class="bg-alt">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Karir Operasional</span>
+                <h2 class="section-title">Pengalaman Kerja</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="experience-timeline reveal">
+                        
+                        <!-- Posisi 1 -->
+                        <div class="timeline-card">
+                            <div class="timeline-dot"></div>
+                            <div class="editorial-card">
+                                <div class="timeline-date">Sep 2025 — Sekarang</div>
+                                <h3 class="timeline-title text-dark">Software and Infrastructure Engineer</h3>
+                                <div class="timeline-subtitle">PT. Ivatama Technology</div>
+                                <p class="text-muted">
+                                    Bertanggung jawab penuh atas pemeliharaan, stabilitas, dan upgrade infrastruktur kontainer klien korporat dengan tugas-tugas sebagai berikut:
+                                </p>
+                                <ol class="timeline-list">
+                                    <li>Melakukan maintenance dan upgrade berkala pada cluster Red Hat OpenShift Container Platform (RHOCP) untuk menjamin stabilitas, keamanan, dan performa optimal sistem.</li>
+                                    <li>Menyusun dokumen laporan teknis berkala berupa Preventive Maintenance (PM) dan Corrective Maintenance (CM).</li>
+                                    <li>Melakukan instalasi dan konfigurasi cluster baru OpenShift Container Platform (OCP) serta Advanced Cluster Management (ACM).</li>
+                                    <li>Melakukan maintenance platform GitOps, Google Kubernetes Engine (GKE), dan administrasi cluster hybrid.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- Posisi 2 -->
+                        <div class="timeline-card">
+                            <div class="timeline-dot"></div>
+                            <div class="editorial-card">
+                                <div class="timeline-date">Jun 2025 — Sep 2025</div>
+                                <h3 class="timeline-title text-dark">Software and Infrastructure Engineer</h3>
+                                <div class="timeline-subtitle">PT. Mitra Inti Bersama</div>
+                                <p class="text-muted">
+                                    Mengelola operasi server dan infrastruktur jaringan tingkat menengah untuk meminimalkan waktu henti (downtime):
+                                </p>
+                                <ol class="timeline-list">
+                                    <li>Melakukan pemeliharaan dan patching berkala pada platform containerization OpenShift (RHOCP).</li>
+                                    <li>Membuat pelaporan performa infrastruktur (PM & CM) untuk kepentingan audit internal klien.</li>
+                                    <li>Melakukan administrasi, upgrade, dan troubleshooting sistem operasi RHEL (Red Hat Enterprise Linux).</li>
+                                    <li>Menangani L2 support untuk penyelesaian masalah jaringan pada perangkat F5 Load Balancer dan Fortigate Firewall.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- Posisi 3 -->
+                        <div class="timeline-card">
+                            <div class="timeline-dot"></div>
+                            <div class="editorial-card">
+                                <div class="timeline-date">Jul 2024 — Jun 2025</div>
+                                <h3 class="timeline-title text-dark">Sysadmin & Assistant Trainer</h3>
+                                <div class="timeline-subtitle">PT. Integrasi Data Nusantara</div>
+                                <p class="text-muted">
+                                    Mendukung delivery training teknologi IT tingkat enterprise serta pengelolaan armada server pusat data lokal:
+                                </p>
+                                <ol class="timeline-list">
+                                    <li>Menjadi asisten instruktur untuk materi pelatihan Kubernetes, DevOps, Linux Sysadmin, VMware, dan Proxmox VE.</li>
+                                    <li>Mengelola armada Server IDN untuk keperluan deploy aplikasi baru, migrasi beban kerja, dan perawatan berkala.</li>
+                                    <li>Menyelesaikan proyek instalasi server klien eksternal secara lepas (freelance).</li>
+                                    <li>Menjadi pemateri utama pada kelas bootcamp intensif dan program edukasi sekolah.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- Posisi 4 -->
+                        <div class="timeline-card">
+                            <div class="timeline-dot"></div>
+                            <div class="editorial-card">
+                                <div class="timeline-date">Okt 2023 — Apr 2024</div>
+                                <h3 class="timeline-title text-dark">DevOps Internship</h3>
+                                <div class="timeline-subtitle">PT. Solusi Teknologi Nusantara</div>
+                                <p class="text-muted">
+                                    Mempelajari implementasi metodologi DevOps dan monitoring sistem dalam siklus rilis perangkat lunak:
+                                </p>
+                                <ol class="timeline-list">
+                                    <li>Membangun pipeline integrasi dan pengiriman otomatis (CI/CD) menggunakan GitLab CI.</li>
+                                    <li>Mengimplementasikan monitoring performa server secara real-time menggunakan Prometheus dan Grafana dashboard.</li>
+                                    <li>Melakukan kontainerisasi aplikasi monolitik menggunakan Docker.</li>
+                                    <li>Melakukan analisis kualitas kode serta menyusun dokumen penunjang rilis teknis.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Keahlian Teknologi -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Kemampuan Teknis</span>
+                <h2 class="section-title">Keahlian & Soft Skills</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 reveal">
+                    <div class="editorial-card h-100">
+                        <h3 class="h5 fw-bold mb-4 text-dark"><i class="bi bi-cpu me-2"></i>Kompetensi Infrastruktur</h3>
+                        
+                        <div class="skill-label">
+                            <span>OpenShift & Kubernetes (Platform)</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" data-width="85%"></div>
+                        </div>
+
+                        <div class="skill-label">
+                            <span>RHEL, Ubuntu, Debian (Linux OS)</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" data-width="90%"></div>
+                        </div>
+
+                        <div class="skill-label">
+                            <span>Ansible, Terraform, Bash (Otomatisasi)</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" data-width="75%"></div>
+                        </div>
+
+                        <div class="skill-label">
+                            <span>Prometheus, Grafana, Zabbix (Monitoring)</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" data-width="80%"></div>
+                        </div>
+
+                        <div class="skill-label">
+                            <span>F5, Fortigate, MikroTik (Jaringan)</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 reveal">
+                    <div class="editorial-card h-100">
+                        <h3 class="h5 fw-bold mb-4 text-dark"><i class="bi bi-person-fill-check me-2"></i>Keterampilan Interpersonal</h3>
+                        <p class="text-muted mb-4">
+                            Selain keahlian teknis pemrograman dan sistem, saya senantiasa mengasah soft-skills berikut untuk menunjang produktivitas kerja:
+                        </p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-shield-check text-success me-3 mt-1 fs-5"></i>
+                                <div>
+                                    <strong class="text-dark">Penyelesaian Masalah (Problem Solving)</strong>
+                                    <p class="small text-muted mb-0">Mampu menganalisis akar masalah server dan infrastruktur secara kritis guna menemukan solusi terbaik.</p>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-shield-check text-success me-3 mt-1 fs-5"></i>
+                                <div>
+                                    <strong class="text-dark">Kolaborasi Lintas Tim (Teamwork)</strong>
+                                    <p class="small text-muted mb-0">Berpengalaman menjalin koordinasi yang harmonis dengan pengembang aplikasi, tim keamanan, dan manajemen.</p>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-shield-check text-success me-3 mt-1 fs-5"></i>
+                                <div>
+                                    <strong class="text-dark">Komunikasi Teknis & Pengajaran</strong>
+                                    <p class="small text-muted mb-0">Terbiasa menyampaikan materi teknis yang kompleks dalam bentuk training sistem yang mudah dipahami.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <i class="bi bi-shield-check text-success me-3 mt-1 fs-5"></i>
+                                <div>
+                                    <strong class="text-dark">Manajemen Waktu Operasional</strong>
+                                    <p class="small text-muted mb-0">Dapat mengatur prioritas pengerjaan laporan PM/CM serta penanganan support tiket darurat secara efektif.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Portofolio Karya -->
+    <section id="portfolio" class="bg-alt">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Galeri Proyek</span>
+                <h2 class="section-title">Portofolio Showcase</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center reveal">
+                <!-- Proyek 1 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="assets/images/project1.png" alt="Crypto Analytics Dashboard Mockup" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <a href="https://github.com/bayhaqqyy" target="_blank" class="btn btn-primary-custom"><i class="bi bi-github me-2"></i>Lihat Kode</a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <span class="portfolio-badge">Infrastructure Monitor</span>
+                            <h4 class="fw-bold mb-2">Crypto Analytics Dashboard</h4>
+                            <p class="small text-muted mb-0">
+                                Integrasi monitoring status blockchain node serta visualisasi real-time metrik transaksi koin menggunakan dasbor terpusat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="assets/images/project2.png" alt="Smart Home Mobile App Mockup" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <a href="https://github.com/bayhaqqyy" target="_blank" class="btn btn-primary-custom"><i class="bi bi-github me-2"></i>Lihat Kode</a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <span class="portfolio-badge">IoT Infrastructure</span>
+                            <h4 class="fw-bold mb-2">Smart Home Controller App</h4>
+                            <p class="small text-muted mb-0">
+                                Perancangan server backend berbasis MQTT broker serta aplikasi kontrol terpusat untuk monitoring perangkat pintar rumah tangga.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Sertifikasi Profesional -->
+    <section id="certs">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Kompetensi Tervalidasi</span>
+                <h2 class="section-title">Sertifikasi Profesional</h2>
+            </div>
+
+            <div class="row justify-content-center reveal">
+                <div class="col-lg-10">
+                    <div class="table-responsive-custom">
+                        <table class="table editorial-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Gelar Kredensial</th>
+                                    <th scope="col">Nama Lengkap Kompetensi</th>
+                                    <th scope="col">Lembaga Penerbit</th>
+                                    <th scope="col">Tindakan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><strong>RHCE</strong></td>
+                                    <td>Red Hat Certified Engineer</td>
+                                    <td>Red Hat</td>
+                                    <td><a href="https://www.credly.com/earner/earned/badge/f726c575-f2ac-400a-99f5-3fbedb3cb7a2" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><strong>RHCOA</strong></td>
+                                    <td>Red Hat Certified OpenShift Administrator</td>
+                                    <td>Red Hat</td>
+                                    <td><a href="https://www.credly.com/earner/earned/badge/cec6d468-e0e8-4c6a-b1ff-5366b8684408" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><strong>RHCSA</strong></td>
+                                    <td>Red Hat Certified System Administrator</td>
+                                    <td>Red Hat</td>
+                                    <td><a href="https://www.credly.com/earner/earned/badge/0632e780-f927-4933-b934-68df93a83ed5" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td><strong>RHCSC</strong></td>
+                                    <td>Red Hat Certified Specialist in Containers</td>
+                                    <td>Red Hat</td>
+                                    <td><a href="https://www.credly.com/earner/earned/share/52d47dbd-9c65-4288-a49c-a8c1fb2efd83" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><strong>MTCRE</strong></td>
+                                    <td>MikroTik Certified Routing Engineer</td>
+                                    <td>MikroTik Academy</td>
+                                    <td><a href="https://mikrotik.com/training/certificates/c357779c8d350cdb33ed" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td><strong>MTCNA</strong></td>
+                                    <td>MikroTik Certified Network Associate</td>
+                                    <td>MikroTik Academy</td>
+                                    <td><a href="https://mikrotik.com/training/certificates/c331463c535cc54134bd" target="_blank" class="btn btn-sm btn-secondary-custom py-1 px-3">Verifikasi <i class="bi bi-box-arrow-up-right ms-1"></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Training dan Pelatihan -->
+    <section id="training" class="bg-alt">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 reveal">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="section-subtitle">Pengembangan Kompetensi</span>
+                        <h2 class="section-title mb-0 d-block">Training Diikuti</h2>
+                    </div>
+                    <p class="text-muted mb-4">Daftar pelatihan teknologi yang telah diselesaikan untuk menunjang wawasan arsitektur:</p>
+                    <div class="space-y-3">
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-award-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Linux System Administration</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2024</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-git"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">DevOps Implementation</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2024</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-hdd-network-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Proxmox Administration</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2024</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-shield-fill-check"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">F5 Load Balancing & Security</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2024</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-microsoft-teams"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Windows Server Operations</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2024</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-clouds-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Kubernetes Administration</h5>
+                                <p class="small text-muted mb-0 font-mono">IDNetworkers | 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 reveal">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="section-subtitle">Kontribusi Komunitas</span>
+                        <h2 class="section-title mb-0 d-block">Training Diajarkan</h2>
+                    </div>
+                    <p class="text-muted mb-4">Berbagi ilmu kepada komunitas IT serta instansi pendidikan:</p>
+                    <div class="space-y-3">
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Linux System Administration</h5>
+                                <p class="small text-muted mb-0 font-mono">Training Center | 5 Peserta</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">DevOps Bootcamp</h5>
+                                <p class="small text-muted mb-0 font-mono">Training Center | 6 Peserta</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Belajar Linux Dari 0</h5>
+                                <p class="small text-muted mb-0 font-mono">Training Center | 30 Peserta</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">Bootcamp System Administration</h5>
+                                <p class="small text-muted mb-0 font-mono">Online Bootcamp | 30+ Peserta</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-icon-box"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1" style="font-size: 0.95rem;">IDN Goes to School</h5>
+                                <p class="small text-muted mb-0 font-mono">School Visit Program | 100+ Peserta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-subtitle">Mari Berdiskusi</span>
+                <h2 class="section-title">Hubungi Saya</h2>
+            </div>
+
+            <div class="row justify-content-center reveal">
+                <div class="col-lg-10">
+                    <div class="contact-container">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-5">
+                                <h3 class="fw-bold mb-3 text-dark" style="font-size: 1.50rem;">Optimalkan Infrastruktur Sistem Anda</h3>
+                                <p class="text-muted mb-4">
+                                    Saya selalu terbuka untuk berdiskusi mengenai proyek konsultasi, magang, training, kolaborasi open-source, atau sekadar bertukar pengalaman teknis.
+                                </p>
+                                <div class="space-y-3">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="fs-4 text-primary"><i class="bi bi-geo-alt-fill"></i></div>
+                                        <div>
+                                            <div class="small text-muted font-mono" style="font-size: 0.7rem;">LOKASI</div>
+                                            <div class="fw-bold text-dark" style="font-size: 0.9rem;">Jakarta, Indonesia</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mt-3">
+                                        <div class="fs-4 text-primary"><i class="bi bi-envelope-fill"></i></div>
+                                        <div>
+                                            <div class="small text-muted font-mono" style="font-size: 0.7rem;">EMAIL</div>
+                                            <div class="fw-bold text-dark" style="font-size: 0.9rem;"><a href="mailto:rafliabdulbayhaqqy@gmail.com" class="text-dark">rafliabdulbayhaqqy@gmail.com</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3 mt-4">
+                                    <a href="https://linkedin.com/in/rafliabdulb" target="_blank" class="social-icon-btn" title="LinkedIn">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="https://github.com/bayhaqqyy" target="_blank" class="social-icon-btn" title="GitHub">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="mailto:rafliabdulbayhaqqy@gmail.com" class="social-icon-btn" title="Kirim Email">
+                                        <i class="bi bi-envelope-at-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <form action="mailto:rafliabdulbayhaqqy@gmail.com" method="post" encType="text/plain" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label font-mono text-muted small">NAMA</label>
+                                        <input type="text" name="name" class="form-control py-2.5 px-3 rounded-3" style="font-size: 0.9rem; border-color: var(--border-color);" placeholder="John Doe" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label font-mono text-muted small">EMAIL</label>
+                                        <input type="email" name="email" class="form-control py-2.5 px-3 rounded-3" style="font-size: 0.9rem; border-color: var(--border-color);" placeholder="john@example.com" required>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <label class="form-label font-mono text-muted small">SUBJEK</label>
+                                        <select name="subject" class="form-select py-2.5 px-3 rounded-3" style="font-size: 0.9rem; border-color: var(--border-color);">
+                                            <option>Konsultasi Infrastruktur</option>
+                                            <option>Undangan Pelatihan (Training)</option>
+                                            <option>Peluang Karir / Magang</option>
+                                            <option>Lainnya</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <label class="form-label font-mono text-muted small">PESAN</label>
+                                        <textarea name="message" class="form-control py-2.5 px-3 rounded-3" style="font-size: 0.9rem; border-color: var(--border-color);" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-primary-custom w-100 py-3 font-bold">Kirim Pesan</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h5 class="fw-bold mb-1" style="font-size: 1.1rem; color: var(--text-dark);">Rafli Abdul Bay Haqqy</h5>
+            <p class="text-muted small mb-3">System Engineer / Platform Engineer / DevOps Engineer</p>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="#about" class="text-muted small">Tentang</a>
+                <a href="#experience" class="text-muted small">Pengalaman</a>
+                <a href="#skills" class="text-muted small">Keahlian</a>
+                <a href="#certs" class="text-muted small">Sertifikasi</a>
+            </div>
+            <p class="text-muted small mb-0">
+                &copy; 2026 Rafli Abdul Bay Haqqy. Dibuat menggunakan <span class="text-danger"><i class="bi bi-heart-fill"></i></span> &amp; <span class="text-primary">Bootstrap 5</span>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3.3 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
