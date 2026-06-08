@@ -586,7 +586,7 @@ abbr {
 .training-item:hover {
     border-color: var(--border-color-hover);
     box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    transform: scale(1.03);
 }
 .training-icon-box {
     width: 44px;
