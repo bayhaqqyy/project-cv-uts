@@ -409,6 +409,7 @@ abbr {
     font-size: 0.95rem;
     border-bottom: 1px solid var(--border-color) !important;
     vertical-align: middle;
+    transition: background-color 0.2s ease-in-out;
 }
 .editorial-table tr:last-child td {
     border-bottom: none !important;
