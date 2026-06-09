@@ -409,6 +409,7 @@ abbr {
     font-size: 0.95rem;
     border-bottom: 1px solid var(--border-color) !important;
     vertical-align: middle;
+    transition: background-color 0.2s ease-in-out;
 }
 .editorial-table tr:last-child td {
     border-bottom: none !important;
@@ -585,7 +586,7 @@ abbr {
 .training-item:hover {
     border-color: var(--border-color-hover);
     box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    transform: scale(1.03);
 }
 .training-icon-box {
     width: 44px;
