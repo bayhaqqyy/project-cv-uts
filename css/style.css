@@ -293,6 +293,7 @@ section.bg-alt {
 .stat-box:hover {
     border-color: var(--accent-blue);
     background: #FFFFFF;
+    transform: scale(1.03);
 }
 .stat-number {
     font-family: var(--font-heading);
@@ -683,4 +684,16 @@ footer {
         padding: 14px 16px !important;
         font-size: 0.85rem;
     }
+}
+
+.space-y-3 a.text-dark {
+    transition: all 0.15s ease-in-out;
+    position: relative;
+    text-decoration: none;
+}
+.space-y-3 a.text-dark:hover {
+    color: var(--bs-primary, #0d6efd) !important;
+    
+    text-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 
+    0 0 15px rgba(13, 110, 253, 0.4);
 }
