@@ -697,3 +697,25 @@ footer {
     text-shadow: 0 0 8px rgba(13, 110, 253, 0.6), 
     0 0 15px rgba(13, 110, 253, 0.4);
 }
+#skills {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+#skills h2 {
+    margin-bottom: 30px;
+}
+.skills-grid ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+}
+.skills-grid ul li {
+    background-color: #eef2f3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
