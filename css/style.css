@@ -131,20 +131,6 @@ section.bg-alt {
 .navbar-brand-custom span {
     color: var(--accent-blue);
 }
-.brand-logo {
-    transition: transform 0.3s ease;
-    border-radius: 50%;
-    object-fit: contain;
-}
-.navbar-brand-custom:hover .brand-logo {
-    transform: rotate(15deg) scale(1.1);
-}
-.brand-divider {
-    color: var(--border-color-hover) !important;
-    font-weight: 300;
-    opacity: 0.7;
-    margin: 0 2px;
-}
 .nav-link-custom {
     color: var(--text-medium) !important;
     font-family: var(--font-heading);
